@@ -23,10 +23,10 @@ generarDatos(1,500,1,20)
 Si revisamos la colección, veremos los resultados:
 
 db.datosejemplo.find().limit(5)</br>
-{ "_id" : 1, "a" : 204, "b" : "r", "c" : "bq9pflyaoMZKaPJVwAyn" }
-{ "_id" : 2, "a" : 329, "b" : "i", "c" : "8srilLHkBVth1NMJwWAx" }
-{ "_id" : 3, "a" : 200, "b" : "B", "c" : "nAbMTbu7tUtF2oH4PEH0" }
-{ "_id" : 4, "a" : 236, "b" : "v", "c" : "mTdnLotBrTm6MCECzAEN" }
-{ "_id" : 5, "a" : 61, "b" : "H", "c" : "ZnWAwO10ws4Qi2NxVcie" }
+{ "_id" : 1, "a" : 204, "b" : "r", "c" : "bq9pflyaoMZKaPJVwAyn" }</br>
+{ "_id" : 2, "a" : 329, "b" : "i", "c" : "8srilLHkBVth1NMJwWAx" }</br>
+{ "_id" : 3, "a" : 200, "b" : "B", "c" : "nAbMTbu7tUtF2oH4PEH0" }</br>
+{ "_id" : 4, "a" : 236, "b" : "v", "c" : "mTdnLotBrTm6MCECzAEN" }</br>
+{ "_id" : 5, "a" : 61, "b" : "H", "c" : "ZnWAwO10ws4Qi2NxVcie" }</br>
 
 Nota: Previamente a generar datos usted debe estar dentro de una base de datos.
