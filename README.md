@@ -3,7 +3,7 @@ JavaScripts para interactuar con MongoDB
 
 Desde el MongoDB Shell debemos cargar el archivo:
 
-> load("GenerarDatosMongoDB.js")
+load("GenerarDatosMongoDB.js")
 
 Debe retornarnos true.
 
@@ -23,6 +23,7 @@ generarDatos(1,500,1,20)
 Si revisamos la colección, veremos los resultados:
 
 db.datosejemplo.find().limit(5)
+
 { "_id" : 1, "a" : 204, "b" : "r", "c" : "bq9pflyaoMZKaPJVwAyn" }
 { "_id" : 2, "a" : 329, "b" : "i", "c" : "8srilLHkBVth1NMJwWAx" }
 { "_id" : 3, "a" : 200, "b" : "B", "c" : "nAbMTbu7tUtF2oH4PEH0" }
